@@ -1,0 +1,99 @@
+/*para exibir as etapas do form*/
+.etapa-formulario {
+    display: none;
+}
+
+.etapa-atual {
+    display: block;
+}
+
+/*para exibir os dados*/
+#dados-cadastrado {
+    text-justify: auto;
+    width: 453px;
+    height: 454px;
+    margin-top: 20px;
+    padding: 5px;
+
+    p,strong {
+        font-weight: bold;
+        margin: 0px;
+        padding: 1px;
+        box-sizing: border-box; /*largura do form*/
+        justify-content: space-between;
+        font-size: 13px;
+    }
+}
+
+.container {
+    display: flex;
+    grid-template-columns: repeat(2, 2fr); /* Duas colunas com larguras iguais */
+    grid-gap: 40px; /* Espaçamento entre as colunas e linhas */
+  }
+
+  .cadastroForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas com larguras iguais */
+    grid-gap: 20px; /* Espaçamento entre as colunas e linhas */
+    padding: 50px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+
+
+
+  }
+  fieldset{
+    margin-top: 5px;
+    padding: auto;
+    justify-content: space-between;
+    grid-gap: 0px; /* Espaçamento entre as colunas e linhas */
+    border: none;
+    height: auto;
+    font-size: 13px;
+  }
+
+  input, select, optgroup, option {
+    width: 100%;
+    /*padding: 12px 20px;*/
+    margin: 3px 3px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box; /*largura do form*/
+    font-size: 13px;
+
+  }
+
+  select, optgroup, option {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 2px 0;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box; /*largura do form*/
+    font-size: 13px;
+
+  }
+  
+  input {
+    width: 100%;
+    border: 1px solid #ccc;
+
+    color: rgb(136, 136, 136);
+    padding: 8px 5px;
+    margin: 8px 0;
+    margin-top: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input:hover {
+  }
+  textarea{
+    width: 100%;
+    height: 56px;      margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box; /*largura do form*/
+
+}

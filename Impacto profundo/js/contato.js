@@ -25,7 +25,6 @@ function exibirDados() {
     <p><strong>Causa:</strong> ${causas}</p>
     <p><strong>Outras Causas e Sugestão de melhorias:</strong> ${outrasCausas}</p>
     <p><strong>Elogios e Sugestão de melhorias:</strong> ${sugestao}</p>
-
 `;
 }
 

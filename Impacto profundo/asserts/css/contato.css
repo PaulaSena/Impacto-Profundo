@@ -1,0 +1,15 @@
+/*para pular para proxima etapa*/
+.etapa-formulario {
+    display: none;
+}
+
+.etapa-atual {
+    display: block;
+}
+
+/*para exibir os dados*/
+#dados-cadastrado {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
